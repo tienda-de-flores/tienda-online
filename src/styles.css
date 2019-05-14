@@ -6,7 +6,12 @@ iso-root {
   min-height: 100vh;
   flex-direction: column;
 }
-
+body {
+  background-image: url("assets/imagenes/fondo_2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
 main {
   flex: 1 0 auto;
 }
